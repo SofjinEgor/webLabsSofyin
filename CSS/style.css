@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Mulish:wght@600&display=swap");
+:root {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+h1 {
+  font-size: 3.8rem;
+  font-weight: 600;
+  font-family: "Mulish";
+}
+a {
+  text-decoration: none;
+}
+.p1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: rgba(24, 22, 45, 0.9);
+}
+.p2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.2;
+  color: #3579f4;
+}
+.spisok {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.28;
+  color: #18162d;
+}
+.zagolovok2 {
+  display: none;
+}
+h3 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 1;
+  color: #3579f4;
+}
+.typesofloading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 1;
+  color: #18162d;
+}
+h2 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.4rem;
+  line-height: 1.26;
+  color: #18162d;
+}
+.sectionofserv {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 1.18;
+  color: #000000;
+}
+.contactus {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.4rem;
+  line-height: 1.26;
+  color: #ffffff;
+}
+.sectionofcontact {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.9);
+}
+.message {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.19;
+  text-transform: uppercase;
+  color: #8c8c8c;
+}
+.foot1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.22;
+  color: #ffffff;
+}
+.foot2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.2rem;
+  line-height: 1.23;
+  color: #ffffff;
+}
+.foot3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.21;
+  color: rgba(255, 255, 255, 0.4);
+}
+footer {
+  width: 100%;
+  height: 730px;
+  background: #18162d;
+  border-radius: 35px 35px 0px 0px;
+  text-align: center;
+}
+hr {
+  width: 320px;
+  height: 0px;
+  border: 3px solid #3579f4;
+}
+body {
+  margin: 0%;
+}
+.spisochek {
+  list-style-type: none;
+  padding: 0%;
+}
+ul {
+  list-style-type: none;
+}
+.spisochek1 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 1.18;
+  color: #000000;
+  padding: 0%;
+  text-align: center;
+}
+.OptServSp {
+  background: #ffffff;
+  box-shadow: -4px 4px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  width: 320px;
+  height: 100px;
+}
