@@ -4,41 +4,122 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
+  html {
+    box-sizing: border-box;
+  }
+/* .headerflex{
+display: flex ;
+margin-bottom: 0%;
+margin-top:2.5rem;
+padding-left: 2.7rem; 
+} */
+/* .flexul1{
+  display: flex;
+  gap:2em;
+  padding: 0;
+  margin: 0; */
+.flexul1{
+  display: flex;
+  gap:3em;
+  padding-top:2.5rem;
+  margin:0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.19;
+  color: #18162D;
+}
+.nav{
+  display: none;
+}
+@media all and (min-width: 600px) {
+  .nav {
+    display: initial;
+  }
+}
+.imgenu{
+  margin-right: 2.9rem;
+  margin-top: 2.5rem;
+}
+.a1{
+  padding-left: 2.2rem;
+  padding-top: 2.5rem;
+}
+.header{
+  display: flex ;
+  gap:5em;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper{
+  max-width: 2560px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
 h1 {
   font-size: 3.8rem;
+  line-height: 1.1;
   font-weight: 600;
   font-family: "Mulish";
+  margin-top: 5.7rem;
+  padding-left: 2.7rem;
+  font-style: normal;
+  color: rgba(24, 22, 45, 0.9);
 }
 a {
   text-decoration: none;
 }
 .p1 {
-  font-family: "Inter";
   font-style: normal;
-  font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.5;
   color: rgba(24, 22, 45, 0.9);
+  margin-top: 3.6rem;
+  padding-left: 4.2rem;
+  margin-bottom: 5.4rem;
 }
 .p2 {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 1.8rem;
   line-height: 1.2;
   color: #3579f4;
+  margin-top: 0%;
+  padding-left: 2.7rem;
+  margin-bottom: 2.5rem;
 }
 .spisok {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.954rem;
+  text-align: center;
   font-family: "Mulish";
   font-style: normal;
   font-weight: 600;
   font-size: 1.4rem;
   line-height: 1.28;
   color: #18162d;
+  padding-right: 3.4rem;
+  white-space: nowrap;
 }
-.zagolovok2 {
+.spisok img {
+  background: #f0f0fa;
+  border-radius: 10px;
+  gap: 1rem;
+  padding: 2rem;
+  width: 5rem;
+  height: 4.5rem;
+}
+.section2 h2 {
   display: none;
 }
+/* .zagolovok2 {
+  display: none;
+} */
 h3 {
   font-family: "Mulish";
   font-style: normal;
@@ -46,79 +127,137 @@ h3 {
   font-size: 2.8rem;
   line-height: 1;
   color: #3579f4;
+  padding-left: 2.7rem;
+  margin-top: 7.6rem;
+  margin-bottom: 0%;
 }
-.typesofloading {
-  font-family: "Inter";
+hr {
+  margin-top: 2.45rem;
+  width: 320px;
+  border: 0;
+  height: 3px;
+  background-color: #3579f4;
+  padding-left: 2.8rem;
+  margin-bottom: 0%;
+}
+.section2 img {
+  padding-left: 2.9rem;
+  margin-top: 4rem;
+}
+.section2 p {
+  padding-left: 2.8rem;
+  margin-top: 3.95rem;
   font-style: normal;
-  font-weight: 400;
   font-size: 2.2rem;
   line-height: 1;
   color: #18162d;
+  margin-bottom: 0%;
 }
-h2 {
+/* .typesofloading {
+  font-style: normal;
+  font-size: 2.2rem;
+  line-height: 1;
+  color: #18162d;
+} */
+
+.optzagol {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 3.4rem;
   line-height: 1.26;
   color: #18162d;
+  margin-left: 2.8rem;
 }
-.sectionofserv {
-  font-family: "Mulish";
+.sectionofcontact {
   font-style: normal;
-  font-weight: 700;
-  font-size: 2.2rem;
-  line-height: 1.18;
-  color: #000000;
+  font-size: 1.6rem;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.9);
+  background: #3579f4;
+  border-radius: 35px 35px 0px 0px;
+  overflow-x: hidden;
+
+  /* height: 1151px; */
 }
-.contactus {
+.sectionofcontact h2 {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 3.4rem;
   line-height: 1.26;
   color: #ffffff;
+  margin-left: 2.7rem;
+  padding-top: 102px;
 }
-.sectionofcontact {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 1.25;
-  color: rgba(255, 255, 255, 0.9);
+.Pcont {
+  margin-top: 2rem;
+}
+.Pcont1 {
+  margin-top: 3.5rem;
+}
+.Pcont2 {
+  margin-top: 1.5rem;
+}
+.Pcont3 {
+  margin-top: 1.5rem;
+}
+.Pcont4 {
+  margin-top: 2.5rem;
+}
+/* .label4{
+  border: 1px solid rgba(255, 255, 255, 0.4);
+} */
+.sectionofcontact p {
+  margin-left: 2.7rem;
 }
 .message {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 1.6rem;
   line-height: 1.19;
   text-transform: uppercase;
   color: #8c8c8c;
+  margin-top: 3.5rem;
+  background: #f0f0fa;
+  border-radius: 10px;
+  width: 320px;
+  height: 60px;
+}
+.sectionofcontact img {
+  margin-top: 2rem;
+  margin-left: 3.5rem;
+  width: 100%;
 }
 .foot1 {
-  font-family: "Inter";
   font-style: normal;
-  font-weight: 400;
   font-size: 1.8rem;
   line-height: 1.22;
   color: #ffffff;
 }
-.foot2 {
-  font-family: "Inter";
+.foot21 {
   font-style: normal;
   font-weight: 500;
   font-size: 2.2rem;
   line-height: 1.23;
   color: #ffffff;
+  margin-top: 9.9rem;
+}
+
+.foot22 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.2rem;
+  line-height: 1.23;
+  color: #ffffff;
+  padding-top: 3rem;
 }
 .foot3 {
-  font-family: "Inter";
   font-style: normal;
-  font-weight: 400;
   font-size: 1.4rem;
   line-height: 1.21;
   color: rgba(255, 255, 255, 0.4);
+  padding-bottom: 5.3rem;
 }
 footer {
   width: 100%;
@@ -127,35 +266,46 @@ footer {
   border-radius: 35px 35px 0px 0px;
   text-align: center;
 }
-hr {
-  width: 320px;
-  height: 0px;
-  border: 3px solid #3579f4;
-}
+
 body {
   margin: 0%;
 }
 .spisochek {
   list-style-type: none;
   padding: 0%;
+  font-style: normal;
 }
 ul {
   list-style-type: none;
 }
 .spisochek1 {
+  text-align: center;
   font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 2.2rem;
   line-height: 1.18;
   color: #000000;
-  padding: 0%;
-  text-align: center;
 }
 .OptServSp {
   background: #ffffff;
   box-shadow: -4px 4px 16px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
-  width: 320px;
-  height: 100px;
+  max-width: 352px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
+  margin-bottom: 10px;
+}
+.footsp {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.socsetimargin {
+  margin-top: 8.7rem;
+}
+.logofoot {
+  margin-bottom: 3.4rem;
+  margin-top: 6.2rem;
 }
