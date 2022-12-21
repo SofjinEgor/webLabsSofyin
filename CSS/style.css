@@ -42,7 +42,7 @@ html {
   align-items: center;
 }
 .wrapper {
-  /* max-width: 2560px; */
+  max-width: 1400px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -93,7 +93,7 @@ a {
 
 .spisok {
   display: grid;
-  grid-template-columns: repeat(3, 10rem);
+  grid-template-columns: repeat(3, 1fr);
   gap: 0.954rem;
   text-align: center;
   font-family: "Mulish";
@@ -369,15 +369,15 @@ margin-left: 2.7rem;
   height: 60px;
   margin-left:2.7rem;
 }
-@media all and (min-width:1000px){
+@media all and (min-width:820px){
   .flexform{
     display: flex;
     flex-direction: row;
   }
 }
-@media all and (min-width:1000px){
+@media all and (min-width:820px){
   .carsin{
-  width:100%;
+    width: 1366.5px;
   height: 520px;
   }
 }
@@ -391,7 +391,7 @@ footer {
   margin-top: -5rem;
   padding-top:5rem;
   text-align: center;
-  padding-bottom: 10rem;
+  padding-bottom: 4rem;
 }
 .logofoot {
   margin-bottom: 3.4rem;
@@ -402,6 +402,17 @@ footer {
   font-size: 1.8rem;
   line-height: 1.22;
   color: #ffffff;
+  padding-top:3rem;
+}
+.spfoot{
+  margin-bottom:8.7rem;
+}
+.foot20{
+  margin-top:3.5rem;
+
+}
+.afoot1{
+  padding-right:1rem;
 }
 .foot21 {
   font-style: normal;
@@ -409,6 +420,7 @@ footer {
   font-size: 2.2rem;
   line-height: 1.23;
   color: #ffffff;
+  margin-top:3.5rem;
 }
 
 .foot22 {
@@ -417,11 +429,31 @@ footer {
   font-size: 2.2rem;
   line-height: 1.23;
   color: #ffffff;
+  margin-top:3.5rem;
 }
 .foot3 {
   font-style: normal;
   font-size: 1.4rem;
   line-height: 1.21;
   color: rgba(255, 255, 255, 0.4);
-  margin-top: 15rem;
+  margin-top: 9.9rem;
+}
+@media all and (min-width:1000px) {
+  .flexfoot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+}
+@media all and (min-width:1000px) {
+  .foot3{
+   padding-left: 4rem;
+  }
+}
+@media all and (min-width:1000px) {
+  footer{
+ text-align: left;
+ padding-left:1.5rem;
+  }
 }
