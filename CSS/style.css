@@ -377,7 +377,7 @@ margin-left: 2.7rem;
 }
 @media all and (min-width:1000px){
   .carsin{
-    width: 1366.5px;
+  width:100%;
   height: 520px;
   }
 }
@@ -391,7 +391,7 @@ footer {
   margin-top: -5rem;
   padding-top:5rem;
   text-align: center;
-  padding-bottom: 4rem;
+  padding-bottom: 10rem;
 }
 .logofoot {
   margin-bottom: 3.4rem;
@@ -402,13 +402,6 @@ footer {
   font-size: 1.8rem;
   line-height: 1.22;
   color: #ffffff;
-  padding-top:3rem;
-}
-.spfoot{
-  margin-bottom:8.7rem;
-}
-.foot20{
-  margin-top:3.5rem;
 }
 .foot21 {
   font-style: normal;
@@ -416,7 +409,6 @@ footer {
   font-size: 2.2rem;
   line-height: 1.23;
   color: #ffffff;
-  margin-top:3.5rem;
 }
 
 .foot22 {
@@ -425,26 +417,11 @@ footer {
   font-size: 2.2rem;
   line-height: 1.23;
   color: #ffffff;
-  margin-top:3.5rem;
 }
 .foot3 {
   font-style: normal;
   font-size: 1.4rem;
   line-height: 1.21;
   color: rgba(255, 255, 255, 0.4);
-  margin-top: 9.9rem;
-}
-@media all and (min-width:1000px) {
-  .flexfoot{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-  }
-}
-@media all and (min-width:1000px) {
-  footer{
- text-align: left;
- padding-left:1.5rem;
-  }
+  margin-top: 15rem;
 }
