@@ -54,8 +54,11 @@ h1 {
   font-family: "Mulish";
   margin-top: 5.7rem;
   margin-left: 2.7rem;
+  margin-right: 2rem;
   font-style: normal;
-  color: rgba(24, 22, 45, 0.9);
+  background: rgb(24,89,221);
+  background: linear-gradient(198deg, rgba(24,89,221,1) 7%, rgba(3,184,237,1) 24%, rgba(31,56,212,1) 40%, rgba(0,212,255,1) 57%, rgba(29,64,214,1) 77%, rgba(0,211,255,1) 93%);
+  /* color: rgba(24, 22, 45, 0.9); */
 }
 a {
   text-decoration: none;
@@ -218,8 +221,8 @@ ul {
   display: grid;
   grid-template-columns: repeat(1,1fr);
   grid-gap: 20px 0;
-  margin-left: 2.7rem;
-  margin-right: 2.8rem;
+  margin-left: 2.5rem;
+  margin-right: 2.6rem;
   margin-bottom: 9rem;
 } 
 
@@ -300,6 +303,7 @@ margin-left: 2.7rem;
   height: 24px;
   border: 1px solid rgba(255, 255, 255, 0.4);
   margin-right:2rem;
+  background-color: #3579F4;
 }
 .forma1{
   margin-top: 3.5rem;
@@ -351,7 +355,7 @@ margin-left: 2.7rem;
 }
 .carsin{
   height: 325px;
-  margin-left: 5.5rem;
+  margin-left: 4.5rem;
   margin-top:2rem;
 
 }
@@ -361,9 +365,12 @@ margin-left: 2.7rem;
   font-size: 1.6rem;
   line-height: 1.19;
   text-transform: uppercase;
-  color: #8c8c8c;
+  /* color: #8c8c8c; */
+  color: rgb(170,31,212);
   margin-top: 3.5rem;
-  background: #f0f0fa;
+  /* background: #f0f0fa; */
+  background: rgb(3,184,237);
+  background: linear-gradient(198deg, rgba(3,184,237,1) 7%, rgba(0,233,255,1) 23%, rgba(31,56,212,1) 38%, rgba(0,212,255,1) 55%, rgba(29,64,214,1) 74%, rgba(0,211,255,1) 90%);
   border-radius: 10px;
   width: 320px;
   height: 60px;
