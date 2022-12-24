@@ -4,6 +4,20 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
+.mainform{
+  text-align: center;
+}
+.container {
+  display: flex;
+  min-height: 150vh;
+  flex-direction: column;
+}
+
+.container-content {
+  flex: 1;
+  padding-bottom: 15rem;
+  padding-top: 15rem;
+}
 html {
   box-sizing: border-box;
 }
@@ -49,16 +63,17 @@ html {
 }
 h1 {
   font-size: 3.8rem;
-  line-height: 1.1;
+  line-height: 1.3;
   font-weight: 600;
   font-family: "Mulish";
-  margin-top: 5.7rem;
+  margin-top: 5.6rem;
   margin-left: 2.7rem;
   margin-right: 2rem;
   font-style: normal;
-  background: rgb(24,89,221);
-  background: linear-gradient(198deg, rgba(24,89,221,1) 7%, rgba(3,184,237,1) 24%, rgba(31,56,212,1) 40%, rgba(0,212,255,1) 57%, rgba(29,64,214,1) 77%, rgba(0,211,255,1) 93%);
-  /* color: rgba(24, 22, 45, 0.9); */
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(90deg, rgb(10, 32, 158), rgb(198, 233, 240), rgb(26, 162, 167));
 }
 a {
   text-decoration: none;
@@ -68,7 +83,7 @@ a {
   font-size: 1.6rem;
   line-height: 1.5;
   color: rgba(24, 22, 45, 0.9);
-  margin-top: 3.6rem;
+  margin-top: 3.4rem;
   margin-left: 4.2rem;
   margin-bottom: 5.4rem;
 }
