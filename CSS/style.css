@@ -381,11 +381,10 @@ margin-left: 2.7rem;
   line-height: 1.19;
   text-transform: uppercase;
   /* color: #8c8c8c; */
-  color: rgb(170,31,212);
+  color: white;
   margin-top: 3.5rem;
   /* background: #f0f0fa; */
   background: rgb(3,184,237);
-  background: linear-gradient(198deg, rgba(3,184,237,1) 7%, rgba(0,233,255,1) 23%, rgba(31,56,212,1) 38%, rgba(0,212,255,1) 55%, rgba(29,64,214,1) 74%, rgba(0,211,255,1) 90%);
   border-radius: 10px;
   width: 320px;
   height: 60px;
